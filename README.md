@@ -3,19 +3,16 @@
 
 <div align="center">
 
-
 **Daniel Katz & Roi Wayner**  
 *Deep Learning for Physiological Signals (3360209)*  
 *Faculty of Biomedical Engineering, Technion, Israel Institute of Technology*
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
-[![LFADS](https://img.shields.io/badge/LFADS-Neural%20Dynamics-green)](https://github.com/lfads)
+[![LFADS](https://img.shields.io/badge/LFADS-Neural%20Dynamics-green)](https://github.com/arsedler9/lfads-torch)
 
 <img src="results/trajectory_animation.gif" alt="Neural Trajectory Animation" width="600"/></br>
 *Neural activity trajectories during different movements (PCA projection - each color represents a different movement)*
-
-
 
 </div>
 
@@ -23,14 +20,20 @@
 
 ## 📖 Overview
 
-This project **implemented and evaluated** multiple deep learning approaches for cross-subject movement classification using motor cortex neural recordings from two Rhesus monkeys (**Chip** & **Gabby**). We **systematically compared** baseline CNN models with advanced approaches including **LFADS** (Latent Factor Analysis via Dynamical Systems) to classify 12 different cued digit/wrist movements and **assessed** generalization across subjects. 
+This project **implements and evaluates** multiple deep learning approaches for cross-subject movement classification using motor cortex neural recordings from two Rhesus monkeys (**Chip** & **Gabby**). We **systematically compare** baseline CNN models with advanced approaches including **LFADS** (Latent Factor Analysis via Dynamical Systems) to classify 12 different cued digit/wrist movements and **assess** generalization across subjects. 
 
 ### 🎯 Research Contributions
-- **Cross-subject neural decoding** analysis performed between two primates
-- **LFADS implementation** for latent dynamics extraction (15 & 100 factors)
+- **Cross-subject neural decoding** analysis between two primates
+- **LFADS training** for latent dynamics extraction (15 & 100 factors)
 - **CNN baselines** developed 
 - **EMG reconstruction and finger kinematics** from neural activity
 - **Comprehensive evaluation** of generalization across subjects and movement types
+
+### 🔗 LFADS Implementation
+We used the open-source [**lfads-torch**](https://github.com/arsedler9/lfads-torch) implementation for LFADS training and factor extraction.  
+If you use this repository, please also **cite**:
+
+> Sedler, A. (2023). *lfads-torch* [Computer software]. GitHub. [https://github.com/arsedler9/lfads-torch](https://github.com/arsedler9/lfads-torch)
 
 <div align="center">
 
@@ -41,7 +44,6 @@ This project **implemented and evaluated** multiple deep learning approaches for
 *LFADS reconstruction quality for Gabby dataset: (Left) Source neural data, (Right) Reconstructed patterns*
 
 </div>
-
 ---
 
 ## 🧪 Experimental Design
@@ -177,6 +179,7 @@ This repository contains the **complete implementation and analysis** for the fi
 *Technion - Israel Institute of Technology, 2025*
 
 </div>
+
 
 
 
