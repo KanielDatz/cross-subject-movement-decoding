@@ -12,7 +12,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![LFADS](https://img.shields.io/badge/LFADS-Neural%20Dynamics-green)](https://github.com/lfads)
 
-<img src="results/trajectory_animation.gif" alt="Neural Trajectory Animation" width="400"/>
+<img src="results/trajectory_animation.gif" alt="Neural Trajectory Animation" width="600"/></br>
 *Neural activity trajectories during different movements (PCA projection - each color represents a different movement)*
 
 
@@ -177,6 +177,7 @@ This repository contains the **complete implementation and analysis** for the fi
 *Technion - Israel Institute of Technology, 2025*
 
 </div>
+
 
 
 
