@@ -44,7 +44,6 @@ If you use this repository, please also **cite**:
 *LFADS reconstruction quality for Gabby dataset: (Left) Source neural data, (Right) Reconstructed patterns*
 
 </div>
----
 
 ## 🧪 Experimental Design
 
@@ -54,7 +53,7 @@ If you use this repository, please also **cite**:
 - **📊 Movements**: 12 cued movements (digit 1-5 and wrist flexion/extension)
 - **⏱️ Temporal Resolution**: 800 timesteps (1ms bins), cropped +-400 ms from movement onset 
 - **🔌 EMG + kinematics Data**: Multi-channel invasive electromyography from 18 distinct forearm muscles
-- 
+- **👉 kinematics Data**: 1d kinematics for each digit + wrist during each trial
 
 ### Movement Classes
 ```python
@@ -179,6 +178,7 @@ This repository contains the **complete implementation and analysis** for the fi
 *Technion - Israel Institute of Technology, 2025*
 
 </div>
+
 
 
 
