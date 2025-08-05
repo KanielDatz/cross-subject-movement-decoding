@@ -3,12 +3,6 @@
 
 <div align="center">
 
-![Neural Trajectory Animation](results/trajectory_animation.gif)
-*Neural activity trajectories during different movements (PCA projection - each color represents a different movement)*
-
-
----
-
 
 **Daniel Katz & Roi Wayner**  
 *Deep Learning for Physiological Signals (3360209)*  
@@ -18,11 +12,10 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![LFADS](https://img.shields.io/badge/LFADS-Neural%20Dynamics-green)](https://github.com/lfads)
 
----
+<img src="results/trajectory_animation.gif" alt="Neural Trajectory Animation" width="400"/>
+*Neural activity trajectories during different movements (PCA projection - each color represents a different movement)*
 
 
-![Neural Decoding](results/chip_lfads_reconstruction.png)
-*Neural activity input and reconstruction using 15 Factor LFADS model*
 
 </div>
 
@@ -184,6 +177,7 @@ This repository contains the **complete implementation and analysis** for the fi
 *Technion - Israel Institute of Technology, 2025*
 
 </div>
+
 
 
 
