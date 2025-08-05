@@ -69,44 +69,41 @@ cross-subject-movement-decoding/
 │   └── final_daniel_roi.pdf
 ├── requirements.txt
 └── README.md
-
+```
 
 🚀 Installation
-bash
-Copy
-Edit
+```
 git clone https://github.com/<your-username>/cross-subject-movement-decoding.git
 cd cross-subject-movement-decoding
 pip install -r requirements.txt
+```
 🧩 Quick Start
 Preprocess raw data
-
-bash
-Copy
-Edit
+```
 python scripts/preprocess.py \
   --input_dir data/raw \
   --output_dir data/processed
-Train a model
+```
 
-bash
-Copy
-Edit
+Train a model
+```
 python scripts/train.py \
   --model res_cnn \
   --data_dir data/processed \
   --epochs 50 \
   --batch_size 32
+```
+
 Evaluate cross-subject generalization
 
-bash
-Copy
-Edit
+```
 python scripts/evaluate.py \
   --model res_cnn \
   --train_subject Chip \
   --test_subject Gabby
+  ```
 📜 Citation
+
 If you use this work, please cite:
 
 Movement Classification From Corticomotor Neuron Activity: Cross Subject Generalization
